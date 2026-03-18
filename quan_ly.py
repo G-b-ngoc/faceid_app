@@ -8,6 +8,12 @@ import cv2
 import pickle
 import time
 
+import streamlit as st
+
+st.title("FaceID Online")
+
+st.write("Nhận dữ liệu từ web camera")
+
 # --- 1. CẤU HÌNH HỆ THỐNG ---
 FILE_LOP = "danh_sach_lop.xlsx"
 mui_gio_vn = pytz.timezone('Asia/Ho_Chi_Minh')
